@@ -1,0 +1,80 @@
+body{margin:0;background:url('images/background.jpg') top center;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:20px}
+img{border:0}
+h1{font-size:2.0em;margin-bottom:0.5em;color:#9b5022;text-align:center}
+h2{font-size:1.5em;text-align:center;color:#9b5022;clear:both}
+h3{text-align:center}
+#container{width:1000px;margin:0 auto;position:relative}
+#header{height:413px;background:url('images/header.png') top center;position:relative;z-index:20}
+
+#gears{position:relative;z-index:30}
+#gears div{position:absolute}
+#gear1{width:164px;height:166px;top:-406px;left:125px;background:url('images/gear1.png')}
+#gear2{width:164px;height:166px;top:-278px;left:87px;background:url('images/gear2.png')}
+#gear3{width:164px;height:166px;top:-149px;left:125px;background:url('images/gear3.png')}
+#gear4{width:161px;height:163px;top:-406px;right:125px;background:url('images/gear4.png')}
+#gear5{width:164px;height:166px;top:-278px;right:87px;background:url('images/gear5.png')}
+#gear6{width:164px;height:166px;top:-149px;right:125px;background:url('images/gear6.png')}
+
+#gears-small{position:relative;z-index:30}
+#gears-small div{position:absolute}
+#gear7{width:102px;height:103px;top:-183px;left:34px;background:url('images/gear7.png')}
+#gear8{width:96px;height:105px;top:-330px;left:252px;background:url('images/gear8.png')}
+#gear9{width:96px;height:105px;top:-163px;right:253px;background:url('images/gear9.png')}
+#gear10{width:101px;height:104px;top:-311px;right:34px;background:url('images/gear10.png')}
+
+#eye{position:absolute;top:-445px;left:256px;width:494px;height:488px;z-index:30}
+#eye-white{position:absolute;top:151px;left:49px}
+#eye-iris{width:347px;height:344px;position:absolute;top:122px;left:73px;background:url('images/eye-iris.png') center center no-repeat}
+#eye-skin{position:absolute;top:50px;left:49px}
+#glare{position:absolute;top:50px;left:49px}
+#rim{-webkit-animation:myfirst 5s;-webkit-animation-duration: 60s;-webkit-animation-timing-function: linear}
+
+#logos{position:relative;z-index:40}
+#logos *{position:absolute}
+#soundcloud{top:-368px;left:162px}
+#amazon{top:-240px;left:123px}
+#spotify{top:-111px;left:161px}
+#facebook{top:-370px;right:250px}
+#twitter{top:-241px;right:214px}
+#youtube{top:-111px;right:253px}
+#itunes{top:50px;left:285px}
+#google-play{top:50px;left:500px}
+
+#facebook body{color:#fff}
+
+#content{position:absolute;top:110px;width:90%;left:5%;padding:20px 0;z-index:30}
+#music{margin:50px 0}
+#other-services{margin:50px 0}
+#contact-me{margin:50px 0 100px}
+#contact-me form{width:500px;margin:0 auto}
+#contact-me form *{display:block}
+#contact-me input,#contact-me textarea{width:100%;background:#fff;opacity:0.5;margin:0 0 20px}
+#contact-me textarea{height:100px}
+button{background:none;border:0;color:#fff;font-size:14px;margin:0;padding:0}
+button span{float:left;height:47px;line-height:47px}
+button .left,button .right{width:11px}
+button span{opacity:0.5}
+button.active span{opacity:1.0}
+button .left{background:url('images/nav-button-left.png')}
+button .middle{background:url('images/nav-button-middle.png')}
+button .right{background:url('images/nav-button-right.png')}
+
+.nav{width:475px;height:47px;margin:50px auto}
+.nav li{list-style:none;float:left;padding:0 20px}
+.nav a{text-decoration:none;color:#fff;font-size:20px}
+.nav span{float:left;height:47px;line-height:47px}
+.nav .left,.nav .right{width:11px}
+.nav span{opacity:0.5}
+.nav .active span{opacity:1.0}
+.nav .left{background:url('images/nav-button-left.png')}
+.nav .middle{background:url('images/nav-button-middle.png')}
+.nav .right{background:url('images/nav-button-right.png')}
+
+.songbar{position:relative;display:block;width:812px;height:133px;margin:0 auto;cursor:pointer}
+.songbar .badge{position:absolute;top:-10px;right:-10px}
+.songbar .playPause{position:absolute;top:42px;left:39px}
+.songbar .text{position:absolute;top:22px;right:32px;display:block;width:647px;height:42px;padding:17px}
+.songbar .text *{float:left}
+.songbar .text p{font-weight:normal;margin-left:15px}
+.songbar .hover{position:absolute;top:18px;left:18px;display:block;width:776px;height:97px;opacity:0}
+#songbar-eternally-ecstatic{background:url('images/songbar-eternally-ecstatic.png')}
